@@ -73,6 +73,7 @@ footer.criador{
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    margin: 1px;
 
 }
 
@@ -99,14 +100,27 @@ footer.criador > p.criador2 > a:hover {
 }
 
 
-@media screen and (min-height: 0px) and (max-height: 600px) {
+@media screen and (min-height: 0px) and (max-height: 500px) {
     div.container {
-        height: 290px;
+        height: 300px;
         padding: 5px;
         margin: 0;
+        width: 290px;
+    }
+
+    main {
+        width: 150px;
+        margin: auto;
+        
+    }
+    div.container > header {
+        width: 150px;
+        margin: auto;
+        
     }
     div.container > header > h1 {
         margin: 10px 0px 20px 0px;
+        font-size: 15px;
     }
     div.container > main > button {
         font-size: 12px;
