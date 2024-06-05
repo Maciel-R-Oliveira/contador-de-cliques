@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* typical device breakpoints
+
+----------------------------
+
+pequenas: até 600px
+celular: 600px até 768px
+tablet:768px até 992 px
+desktop: 992 até 1200px
+grande telas: acima de 1200px
+*/
+
+@media screen and (min-width: 600px) and (max-width: 992px){
+    div.container {
+        width: 400px;
+        
+        
+    }
+
+    div.container > header {
+        font-size: 1.5em;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    div.container > main {
+        max-width: 300px;
+        margin: auto;
+        
+        
+    }   
+}
+
+@media screen and (min-width: 992px){
+    div.container {
+        width: 500px;
+        
+        
+    }
+
+    div.container > header {
+        font-size: 1.5em;
+        max-width:300px;
+        margin: auto;
+        
+    }
+
+    div.container > main {
+        margin: auto;
+        max-width: 300px;
+        
+    }   
+}
+
