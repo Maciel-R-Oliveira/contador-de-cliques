@@ -102,10 +102,11 @@ footer.criador > p.criador2 > a:hover {
 @media screen and (min-height: 0px) and (max-height: 600px) {
     div.container {
         height: 290px;
-        padding: 10px;
+        padding: 5px;
+        margin: 0;
     }
     div.container > header > h1 {
-        
+        margin: 10px 0px 20px 0px;
     }
     div.container > main > button {
         font-size: 12px;
